@@ -1,12 +1,45 @@
 /* Universal Selectors */
-
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 /* Element Selectors */
-
-
-
+.header {
+    display: flex;
+    background-color: darkgray;
+    justify-content: space-between;
+}
+.header h1{
+    background-color: aqua;
+    color: darkgray;
+    padding-left: 2.5em;
+}
+.nav {
+    display: flex;
+    
+}
+.nav-flex {
+    display: flex;
+    
+    
+}
+.nav-flex h3{
+    margin-right: 1em;
+}
+#project-links a{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 1em;
+}
 /* Class Selectors */
-
+.flex-container{
+    display: flex;
+}
 
 /* Id Selectors */
+#project-links{
+    display: flex;
+    flex-wrap: wrap;
+}
